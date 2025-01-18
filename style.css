@@ -1,0 +1,137 @@
+
+
+/* General responsive adjustments */
+@media (max-width: 1200px) {
+    section {
+        max-width: 100%;
+        padding: 1rem;
+    }
+}
+
+@media (max-width: 991px) {
+    .header .flex .logo-container {
+        margin-right: 50px;
+    }
+
+    .header .flex .navbar a {
+        font-size: 1.8rem;
+    }
+
+    .home .main .main_content .main_text .type {
+        font-size: 3.5rem;
+        line-height: 4.5rem;
+    }
+
+    .home .main .main_content .main_text .first_text {
+        font-size: 1.4rem;
+        line-height: 1.8rem;
+    }
+
+    .home .main .main_content .main_image img {
+        width: 350px;
+    }
+
+    .about .topper {
+        font-size: 3.5rem;
+    }
+
+    .portfolio .center-text {
+        font-size: 3rem;
+    }
+
+    .services .center-text {
+        font-size: 3rem;
+    }
+
+    .footer-section h4 {
+        font-size: 1.8rem;
+    }
+
+    .footer-section p {
+        font-size: 1.4rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .header .flex .navbar {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .home .main .main_content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .home .main .main_content .main_text {
+        text-align: center;
+    }
+
+    .home .main .main_content .main_image img {
+        width: 300px;
+    }
+
+    .about .topper {
+        font-size: 3rem;
+    }
+
+    .portfolio .center-text {
+        font-size: 2.5rem;
+    }
+
+    .services .center-text {
+        font-size: 2.5rem;
+    }
+
+    .footer-section h4 {
+        font-size: 1.6rem;
+    }
+
+    .footer-section p {
+        font-size: 1.2rem;
+    }
+}
+
+@media (max-width: 450px) {
+    .header .flex .logo-container {
+        margin-right: 20px;
+    }
+
+    .header .flex .navbar a {
+        font-size: 1.6rem;
+    }
+
+    .home .main .main_content .main_text .type {
+        font-size: 2.5rem;
+        line-height: 3.5rem;
+    }
+
+    .home .main .main_content .main_text .first_text {
+        font-size: 1.2rem;
+        line-height: 1.6rem;
+    }
+
+    .home .main .main_content .main_image img {
+        width: 250px;
+    }
+
+    .about .topper {
+        font-size: 2.5rem;
+    }
+
+    .portfolio .center-text {
+        font-size: 2rem;
+    }
+
+    .services .center-text {
+        font-size: 2rem;
+    }
+
+    .footer-section h4 {
+        font-size: 1.4rem;
+    }
+
+    .footer-section p {
+        font-size: 1rem;
+    }
+}
